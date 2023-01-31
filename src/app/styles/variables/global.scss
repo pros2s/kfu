@@ -1,0 +1,28 @@
+:root {
+  --font-family-main: -apple-system, blinkmacsystemfont, sans-serif;
+  --font-size-s: 14px;
+  --font-line-s: 16px;
+  --font-s: var(--font-size-s) / var(--font-line-s) var(--font-family-main);
+  --font-size-m: 16px;
+  --font-line-m: 20px;
+  --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+  --font-line-l: 26px;
+  --font-size-l: 22px;
+  --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+  --font-size-xl: 32px;
+  --font-line-xl: 40px;
+  --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+  // colors
+  --overlay-color: rgb(0 0 0 / 80%);
+  --color: rgb(39 39 39);
+
+  // border-radius
+  --border-radius: 5px;
+
+  // modal z-index
+  --modal-z-index: 10;
+
+  // box-shadow
+  --box-shadow: 0 5px 23px 6px rgb(0 0 0 / 30%);
+}

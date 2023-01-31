@@ -1,0 +1,46 @@
+.Modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--font-family-main);
+
+  pointer-events: none;
+}
+
+.content {
+  width: auto;
+
+  margin: auto 40px;
+  padding: 20px;
+
+  color: var(--color);
+
+  border-radius: var(--border-radius);
+  opacity: 0;
+}
+
+.opened {
+  z-index: var(--modal-z-index);
+
+  pointer-events: auto;
+
+  .content {
+    opacity: 1;
+
+    transition: opacity 0.3s linear;
+  }
+}
+
+.closing {
+  .content {
+    opacity: 0;
+  }
+}

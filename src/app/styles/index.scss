@@ -1,0 +1,11 @@
+@import 'reset';
+@import 'variables/global';
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.app {
+  font: var(--font-m);
+}
